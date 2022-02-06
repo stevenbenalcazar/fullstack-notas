@@ -21,7 +21,7 @@ var mongoose = require('mongoose');
 //Dirección a la base de datos local:
 const urlLocal = 'mongodb://localhost:27017/api_rest_notas2022';
 //Url a mongoDB Atlas:
-const url = "mongodb+srv://codenautas:codenautas2022@cluster0.f5vxk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const url = "mongodb+srv://<user>:<password>@cluster0.f5vxk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 //Configuración para evitar fallos en la conexión con mongoDB
 mongoose.Promise = global.Promise;
 
